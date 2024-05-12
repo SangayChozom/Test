@@ -32,4 +32,4 @@ while input("Do you want to go forward? (yes/no): ").lower() == 'yes':
         current_page = forward_history.get()
         print(f"going forward to {current_page}")
     else:
-        print("No forward page available")  
+        print("No forward page available")
